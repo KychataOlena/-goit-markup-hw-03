@@ -186,9 +186,7 @@ text-decoration: none;
    color: var(--primery-text-color);
    margin-bottom: 30px;
    margin-top: 0px;
-   background-color: tomato;
-   
- 
+  
 
 }
 
@@ -217,10 +215,6 @@ text-decoration: none;
    border: transparent;
    min-width: 200px; 
    background-color: var(--button-color);
-
-   /* height: 38px;
-   left: 711px;
-   top: 178px; */
    
 }
    .filter .button:hover,
