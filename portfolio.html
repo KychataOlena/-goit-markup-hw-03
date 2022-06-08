@@ -8,12 +8,14 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="./css/styles.css">
    
 </head>
 <body  class="page-body">
     <!-- Header -->
 <header>
+   <div class="container">
    <nav>
       <a href="./index.html" class="logo">
          <span class="logo-web">Web</span> 
@@ -24,17 +26,21 @@
           <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
        </ul>
-    <ul class="auth-nav">
-       <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-       <li><a href="telto:+38096111111" class="link">+38 096 111 11 11</a></li>
-    </ul>
    </nav>
+</div>
+<div class="container">
+   <ul class="auth-nav">
+      <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+      <li><a href="telto:+38096111111" class="link">+38 096 111 11 11</a></li>
+   </ul>
+</div>
 </header>
 
+<main>
    <!-- Фильтр -->
 
-<main>
  <section>
+   <div class="container">
    <h1>Навигация сайта</h1>
    <ul class="filter">
     <li><button type="button" class="button">Все</button></li>
@@ -43,9 +49,11 @@
     <li><button type="button" class="button">Дизайн</button></li>
     <li><button type="button" class="button">Маркетинг</button></li>
    </ul>
+   </div>
 
    <!-- Портфолио -->
    <h2>Карточки товара</h2>
+   <div class="container">
       <ul>
          <li>
             <a href="" class="porfolio-list">
@@ -112,16 +120,20 @@
             </a>
          </li>
       </ul>
+   </div>
  </section>
 </main>
 
 
 <!-- Footer -->
 <footer class="footer">
+   <div class="container">
    <a href="./index.html" class="logo">
       <span class="logo-web">Web</span> 
       <span class="second-lg">Studio</span>
     </a>
+   </div>
+   <div class="container">
 <address class="adress">
    г. Киев, пр-т Леси Украинки, 26
 </address>
@@ -129,6 +141,7 @@
    <a href="mailto:info@example.com" class="adress link">info@example.com</a><br>
    <a href="telto:+380991111111" class="adress link">+38 099 111 11 11</a>
 </address>
+</div>
 </footer>
 </body>
 </html>
