@@ -20,11 +20,17 @@
    --adrress-text-color:rgba(255, 255, 255, 0.6);
    --hero-bc-color: #2F303A;
 }
+.visually{
+   visibility: hidden;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+   
 .container{
    margin-left: auto;
    margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
    width: 1200px;
 
    outline: 2px solid tomato;  
@@ -178,9 +184,8 @@ text-decoration: none;
    
 }
 
-.text,
-.porfolio-list .text{
-
+.text
+{
    font-size: 16px;
    line-height: 1.18;
    color: var(--primery-text-color);
@@ -197,9 +202,30 @@ text-decoration: none;
  line-height: 2;
  letter-spacing: 0.06em;
  color: var(--title-text-color);
+ margin-top: 20px;
+ margin-bottom: 4px;
+ margin-left: 24px;
 }
 .porfolio-list{
    text-decoration: none;
+}
+.portfolio-text{
+   font-size: 16px;
+   line-height: 1.18;
+   color: var(--primery-text-color);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 24px;
+}
+.decoration{
+  
+   padding-bottom: 20px;
+   background: #FFFFFF;
+   border: 1px solid #EEEEEE;
+   box-sizing: border-box;
+   height: 404px;
+   width: 370px;
+
 }
 
 
@@ -213,9 +239,14 @@ text-decoration: none;
    text-align: center;
    border-radius: 4px;
    border: transparent;
-   min-width: 200px; 
    background-color: var(--button-color);
+   padding: 6px 22px;
+   display: inline-block;
    
+   
+}
+.filter{
+   margin-bottom: 30px;
 }
    .filter .button:hover,
    .filter .button:focus{
@@ -225,6 +256,8 @@ text-decoration: none;
    text-align: center;
    background-color: var(--accent-color);
    color: var(--text-white-color);
+   border-radius: 4px;
+   
  
 }
 .button.primary{
@@ -259,6 +292,7 @@ text-decoration: none;
    line-height: 1.71;
    color: var(--text-white-color);
    text-decoration: none;
+   margin-bottom: 9px;
 }
 
    .adress.link{
@@ -267,6 +301,7 @@ text-decoration: none;
    line-height: 1.71;
    color: var(--adrress-text-color);
    text-decoration: none;
+   margin-bottom: 9px;
    }
 
    .adress.link:hover,
