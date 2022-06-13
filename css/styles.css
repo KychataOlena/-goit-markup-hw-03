@@ -52,6 +52,12 @@
 
 }
 
+/* Header */
+
+.header{
+   border: 1px solid #ECECEC;
+}
+
 /* Лого студії */
 .logo{
    text-decoration: none;
@@ -293,6 +299,7 @@ text-decoration: none;
 .portfolio-flex{
    display: flex;
    flex-wrap: wrap;
+   
 
 }
 
