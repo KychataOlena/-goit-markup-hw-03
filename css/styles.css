@@ -415,7 +415,7 @@ text-decoration: none;
 
 /* Footer */
 .footer{
-   background-color: black;
+   background-color:var(--hero-bc-color);
    padding-bottom: 60px;
    padding-top: 60px;
    
@@ -434,6 +434,7 @@ text-decoration: none;
    line-height: 1.2;
 }
 .adress{
+   
    margin-top: 20px;
    margin-bottom: 0px;
 
@@ -455,6 +456,7 @@ text-decoration: none;
 }
 
    .adress-link{
+   display: block;
    margin-top: 0px;
    margin-bottom: 9px;
    
