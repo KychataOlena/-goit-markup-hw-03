@@ -342,7 +342,7 @@ text-decoration: none;
    background: #FFFFFF;
    border: 1px solid #EEEEEE;
    box-sizing: border-box;
-   width: 370px;
+   /* width: 370px; */
 }
 
 
